@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Miller | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #d1d5db;
+        }
+
+        nav {
+            background-color: #1f2937;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #111827;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background-color: #111827;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+            color: #111827;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #111827;
+            color: white;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Aaron Miller</h1>
+        <p>Rutgers Business School Student | Content Creator | Future Business Professional</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Rutgers Business School student with experience in social media,
+            content creation, teamwork, communication, and business-focused projects,
+            and I am developing the skills to build a successful career in business.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Social Media</div>
+            <div class="skill">Content Creation</div>
+            <div class="skill">Canva</div>
+            <div class="skill">Communication</div>
+            <div class="skill">Teamwork</div>
+            <div class="skill">Leadership</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Business Analysis</div>
+            <div class="skill">Professional Storytelling</div>
+            <div class="skill">Microsoft Office</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>NJSchoolJobs Social Media</h3>
+                <p>
+                    Created social media content designed to increase awareness
+                    of New Jersey school employment opportunities, including
+                    TikTok videos, job alerts, and promotional content.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Rutgers Athletics NIL Research</h3>
+                <p>
+                    Researched how NIL collectives and the transfer portal have
+                    changed recruiting and transfer dynamics in college athletics,
+                    with a focus on Rutgers Athletics.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>CrowdStrike Strategic Analysis</h3>
+                <p>
+                    Analyzed CrowdStrike's strategic goals and investor materials
+                    to better understand the company's long-term growth strategy
+                    and business objectives.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Aaron Miller</p>
+    </footer>
+
+</body>
+</html>
